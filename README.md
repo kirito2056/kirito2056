@@ -1,7 +1,5 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Backend-Developer&fontSize=80)
 
-
-
 사용하는 기술 스택
 <br>
 <img src="https://img.shields.io/badge/JAVA-007396?style=square&logo=java&logoColor=white">
