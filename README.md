@@ -42,7 +42,7 @@
     <a href="mailto:gwonhajin2@gmail.com">
         <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white"> 
     </a>
-    <a href="https://www.instagram.com/everlazing_hajin">
+    <a href="https://www.instagram.com/gwon._.xvii">
         <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white"> 
     </a>
 </div>
