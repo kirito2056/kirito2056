@@ -1,0 +1,105 @@
+<svg width="300" height="165" viewBox="0 0 300 165" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="descId">
+  <title id="titleId">Most Used Languages (All Repos)</title>
+  <desc id="descId">Python 35.45%, TypeScript 29.84%, Rust 12.50%, Java 8.27%, CSS 7.19%, HTML 3.55%, JavaScript 1.72%, Dart 1.48%</desc>
+  <style>
+    .header {
+      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #70a5fd;
+      animation: fadeInAnimation 0.8s ease-in-out forwards;
+    }
+    .lang-name {
+      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
+      fill: #38bdae;
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    #rect-mask rect {
+      animation: slideInAnimation 1s ease-in-out forwards;
+    }
+    @keyframes slideInAnimation {
+      from { width: 0; }
+      to { width: calc(100% - 50px); }
+    }
+    @keyframes fadeInAnimation {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#e4e2e2" width="299" fill="#1a1b27" stroke-opacity="0"/>
+
+  <g data-testid="card-title" transform="translate(25, 35)">
+    <text x="0" y="0" class="header" data-testid="header">Most Used Languages</text>
+  </g>
+
+  <g data-testid="main-card-body" transform="translate(0, 55)">
+    <svg data-testid="lang-items" x="25">
+      <mask id="rect-mask">
+        <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
+      </mask>
+
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="0" y="0" width="88.62" height="8" fill="#3572A5"/>
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="88.62" y="0" width="74.60" height="8" fill="#3178c6"/>
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="163.22" y="0" width="31.25" height="8" fill="#dea584"/>
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="194.47" y="0" width="20.68" height="8" fill="#b07219"/>
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="215.15" y="0" width="17.98" height="8" fill="#663399"/>
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="233.13" y="0" width="8.88" height="8" fill="#e34c26"/>
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="242.01" y="0" width="4.30" height="8" fill="#f1e05a"/>
+      <rect mask="url(#rect-mask)" data-testid="lang-progress" x="246.31" y="0" width="3.69" height="8" fill="#00B4AB"/>
+
+      <g transform="translate(0, 25)">
+        <g transform="translate(0, 0)">
+          <g class="stagger" style="animation-delay: 450ms">
+            <circle cx="5" cy="6" r="5" fill="#3572A5"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">Python 35.45%</text>
+          </g>
+        </g>
+        <g transform="translate(0, 20)">
+          <g class="stagger" style="animation-delay: 600ms">
+            <circle cx="5" cy="6" r="5" fill="#3178c6"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">TypeScript 29.84%</text>
+          </g>
+        </g>
+        <g transform="translate(0, 40)">
+          <g class="stagger" style="animation-delay: 750ms">
+            <circle cx="5" cy="6" r="5" fill="#dea584"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">Rust 12.50%</text>
+          </g>
+        </g>
+        <g transform="translate(0, 60)">
+          <g class="stagger" style="animation-delay: 900ms">
+            <circle cx="5" cy="6" r="5" fill="#b07219"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">Java 8.27%</text>
+          </g>
+        </g>
+
+        <g transform="translate(135, 0)">
+          <g class="stagger" style="animation-delay: 450ms">
+            <circle cx="5" cy="6" r="5" fill="#663399"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">CSS 7.19%</text>
+          </g>
+        </g>
+        <g transform="translate(135, 20)">
+          <g class="stagger" style="animation-delay: 600ms">
+            <circle cx="5" cy="6" r="5" fill="#e34c26"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">HTML 3.55%</text>
+          </g>
+        </g>
+        <g transform="translate(135, 40)">
+          <g class="stagger" style="animation-delay: 750ms">
+            <circle cx="5" cy="6" r="5" fill="#f1e05a"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">JavaScript 1.72%</text>
+          </g>
+        </g>
+        <g transform="translate(135, 60)">
+          <g class="stagger" style="animation-delay: 900ms">
+            <circle cx="5" cy="6" r="5" fill="#00B4AB"/>
+            <text data-testid="lang-name" x="15" y="10" class="lang-name">Dart 1.48%</text>
+          </g>
+        </g>
+      </g>
+    </svg>
+  </g>
+</svg>
